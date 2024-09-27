@@ -1,0 +1,6 @@
+{
+  "ext": "ts,css",
+  "watch": ["src", "typings"],
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "concurrently \"ts-node src/server.ts\" \"npm run build:css\""
+}
